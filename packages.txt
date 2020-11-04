@@ -1,0 +1,18 @@
+#brew taps
+homebrew/cask
+
+#brew packages
+ffmpeg
+mackup #remove this if you don't want to backup and restore app/system prefs
+mas
+python
+streamlink
+youtube-dl
+
+#brew casks
+iina
+keka
+rectangle
+
+#mas apps
+Telegram
