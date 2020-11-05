@@ -1,18 +1,15 @@
 #brew taps
 homebrew/cask
+tap2
 
 #brew packages
-ffmpeg
-mackup #remove this if you don't want to backup and restore app/system prefs
+mackup
 mas
-python
-streamlink
-youtube-dl
 
 #brew casks
-iina
-keka
-rectangle
+cask1
+cask2
 
 #mas apps
-Telegram
+app1
+app2
