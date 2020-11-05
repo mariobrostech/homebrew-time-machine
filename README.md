@@ -15,7 +15,7 @@
    3. Modify the script to remove the parts checking for an existing Homebrew installation. I'm not going to write out how to do this because, frankly, if you don't know how to remove a loop from a bash script, you probably shouldn't be using this method to begin with. Use one of the other two solutions listed above instead.
 5. Once the script executes, you will be prompted for your administrator password. Enter it, and when you are prompted to, press enter to confirm the installation of Xcode's command line tools. Now, relax and go grab a coffee!
 
-If you want to see the contents, of the script itself (you don't need to, it's just if you want an idea of what's happening behind-the-scenes), do the following:
+### Inspecting the source code:
 1. Open Terminal and `cd` to the extracted folder.
 2. Run nano `./brew.sh`.
 3. Look around, and make any changes you'd like (one useful change would be to add a line with the `mackup restore` command if you want to have the script import your app preferences automatically).
