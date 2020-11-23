@@ -1,4 +1,4 @@
-# Homebrew Time Machine by [mariobrostech](https://github.com/mariobrostech)
+# Homebrew Time Machine
 ### Huge thanks to [unilock](https://github.com/unilock) for helping me test and add functionality to the script!
 ### Install all of your apps in a simple, hackable script
 - This script is primarily targeted to be used on macOS, but it should also work on Linux if you remove parts of the script referencing `brew cask` and `mas`.
