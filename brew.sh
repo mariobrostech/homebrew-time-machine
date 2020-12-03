@@ -4,6 +4,7 @@ IFS=$'\n'
 i=0
 
 sudo -v
+cd "${0%/*}"
 
 if [[ $(command -v brew) == "" ]]; then
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
